@@ -38,10 +38,12 @@ API's:
    Body:{your patched object}<br />
    <br />
    <br />
+   
 Working curl requests:<br />
-----------------------<br />
+----------------------
+
 For Login:<br />
-----------<br />
+----------
 curl --location --request POST 'http://localhost:8080/login' \<br />
 --header 'Content-Type: application/json' \<br />
 --data-raw '{<br />
@@ -55,7 +57,7 @@ curl --location --request GET 'http://localhost:8080/thumbnail?uri=https://cdn.f
 --header 'authToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE1OTY1NDEwODQsImV4cCI6MTU5NjU1OTA4NH0.TDsLldTvAMRl1yJRqBNO36o5BvlOUBI9R72OETEppD8' \<br />
 <br />
 For generating jsonPatch:<br />
--------------------------<br />
+-------------------------
 curl --location --request GET 'http://localhost:8080/jsonPatch' \<br />
 --header 'authToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE1OTY1NDEwODQsImV4cCI6MTU5NjU1OTA4NH0.TDsLldTvAMRl1yJRqBNO36o5BvlOUBI9R72OETEppD8' \<br />
 --header 'Content-Type: application/json' \<br />
