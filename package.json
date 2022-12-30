@@ -16,7 +16,7 @@
     "image-thumbnail": "^1.0.10",
     "json-patch": "^0.7.0",
     "jsonwebtoken": "^8.5.1",
-    "mocha": "^8.1.0",
+    "mocha": "^8.4.0",
     "nodemon": "^2.0.4",
     "validator": "^13.1.1"
   },
